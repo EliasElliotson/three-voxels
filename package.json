@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "start": "npx vite public/",
-    "build": "npx vite build",
+    "build": "npm i && npx vite build",
     "lint": "npx prettier ./public --write"
   },
   "dependencies": {
